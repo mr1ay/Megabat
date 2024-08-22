@@ -1,0 +1,108 @@
+//example
+sed
+c eeee
+:menu
+c c
+c m 22,11
+c ti hello my window name
+c cc f
+
+ee 012 0 0 3a hi
+p
+tiii 5
+:.menu
+
+/*
+
+this is comment
+*/
+
+// line comment
+
+
+//example
+sed
+c eeee
+:menu
+c c
+c m 22,11
+c ti hello my window name
+c cc f
+
+ee 012 0 0 3a hi
+p
+tiii 5
+:.menu
+
+/*
+
+this is comment
+*/
+
+// line comment
+
+
+//example
+c eeee
+switch (a)
+case 1
+echo yes
+break
+case 2
+echo no 
+break
+default
+echo no 
+break
+
+
+//example
+c eeee
+loop 1 15
+mouse click
+endl
+
+
+
+
+
+
+
+//example
+import oto
+c eeee
+kk enter
+kk 1+2+4+2+2+3
+
+
+
+//example
+import gui
+c eeee
+button 0 0   1 0 20 2    e0  b0  hi
+buttongui
+event 1
+echo yes
+pause
+ende
+
+
+//example
+importt bg.exe batbox.exe nircmd.exe
+c eeee
+
+
+//example
+import length
+c eeee
+set a=1234567
+call :length 'a'
+echo 'length'
+
+
+//example
+import replace
+c eeee
+set a=1234567
+call :replace 'a' 123 444
+echo 'replace'
